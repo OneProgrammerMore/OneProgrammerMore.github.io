@@ -441,6 +441,7 @@ main > div:nth-child(even) > div:first-child{
 	margin-left: 14px;
 	background-color: var(--skill-item-icon-bg-color);
 	border-radius: 100%;
+	margin-bottom: 7px;
 }
 	
 .engineer-i{
@@ -894,7 +895,7 @@ main div:nth-of-type(even) .section-header.active{
 	font-size: 14px;
 	background-color: var(--project-info-text-even-bg-color);
 	border-radius: 14px;
-	box-shadow: 10px 5px 5px gray;
+	box-shadow: 7px 5px 5px gray;
 }
 
 .project-explanation > .project-text{
@@ -925,7 +926,7 @@ main div:nth-of-type(even) .section-header.active{
 	align-items: center;
 	width: auto;
 	border: 4px 10px;
-	box-shadow: 10px 5px 5px gray;
+	box-shadow: 7px 5px 5px gray;
 	border-radius: 30px;
 	
 }
@@ -1538,6 +1539,8 @@ main > div:nth-of-type(even).section > .section-header.reveal.active{
 	height: 70px;
 	max-height: 35px;
 	width: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .contact-method{
@@ -1889,6 +1892,7 @@ main > div:nth-of-type(even).section > .section-header.reveal.active{
 	
 	.section{
 		background-color: red;
+		padding-top: 0px;
 	}
 	body{
 		display: flex;
@@ -1911,7 +1915,7 @@ main > div:nth-of-type(even).section > .section-header.reveal.active{
 		background: none;
         width: 45px;
         height: 45px;
-        left: 10px;
+        right: 10px;
         top: 10px;
 		position: fixed;
 		z-index: 1;
@@ -1990,7 +1994,7 @@ main > div:nth-of-type(even).section > .section-header.reveal.active{
 	}
 	.tech-div{
 		display: inline-block;
-		margin: 0 21px;
+		margin: 0 7px;
 	}
 	
 	.project-section{
