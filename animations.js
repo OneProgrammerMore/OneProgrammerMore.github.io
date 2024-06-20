@@ -2,7 +2,7 @@ function reveal() {
   var reveals = document.querySelectorAll(".reveal");
   var checkbox = document.getElementById("animation-checkbox");
   
-  //if(checkbox.checked ==  true){
+  if(checkbox.checked ==  true){
 		for (var i = 0; i < reveals.length; i++) {
 		var windowHeight = window.innerHeight;
 		var elementTop = reveals[i].getBoundingClientRect().top;
@@ -15,7 +15,7 @@ function reveal() {
 		}
 	  }
   
-  //}
+  }
   
 }
 
