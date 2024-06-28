@@ -2099,6 +2099,15 @@ main > div:nth-of-type(even).section > .section-header.reveal.active{
 	display: none;
 }
 
-.switch-night-mode, .project-links > div:nth-of-type(odd), .hide-my{
+.project-link {
+	text-decoration: none;
+	color: black;
+}
+
+.switch-night-mode, .project-links > a:nth-of-type(odd), .hide-my{
+	display: none !important;
+}
+
+.hidden-class{
 	display: none !important;
 }
